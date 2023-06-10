@@ -1,3 +1,4 @@
+import { TestState, TestAction, ITest } from "../../types.d";
 import * as actionTypes from "../acitons/actionTypes";
 
 const initialState: TestState = {

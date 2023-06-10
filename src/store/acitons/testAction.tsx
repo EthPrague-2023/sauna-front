@@ -1,3 +1,4 @@
+import { ITest, TestAction, DispatchType } from "../../types.d";
 import * as actionTypes from "./actionTypes";
 
 export function addSmth(data: ITest) {

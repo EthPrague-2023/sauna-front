@@ -51,7 +51,7 @@ async function main() {
     };
 
 // Public wallet to shield from.
-    const fromWalletAddress: string    = '0xab5801a7d398351b8be11c439e05c5b3259aec9b';
+    const fromWalletAddress: string  = devPrivateKey;
 
     const {gasEstimateString, error} = await gasEstimateForShieldBaseToken(
         NetworkName.Ethereum,
